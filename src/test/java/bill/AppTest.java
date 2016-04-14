@@ -12,12 +12,12 @@ public class AppTest {
 	}
 	@Test
 	public void goldBillNoaddNooveruse1() {
-		bill = new Makebill("Gold",1,2);
+		bill = new Makebill("Gold",1,0x2);
 		assertEquals(bill.totalBill(),49.95,error);
 	}
 	@Test
 	public void goldBillNoaddNooveruse2() {
-		bill = new Makebill("gold",1,2);
+		bill = new Makebill("gold",1,0x2);
 		assertEquals(bill.totalBill(),49.95,error);
 	}
 	@Test
